@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
 import {SharedDataModule} from './shared-data/shared-data.module';
 import {ServiceSharedModule} from './service-shared/service-shared.module';
+import {ViewChildSharedModule} from './view-child-shared/view-child-shared.module';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import {ServiceSharedModule} from './service-shared/service-shared.module';
     AppRoutingModule,
     AnidadosModule,
     SharedDataModule,
-    ServiceSharedModule
+    ServiceSharedModule,
+    ViewChildSharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
